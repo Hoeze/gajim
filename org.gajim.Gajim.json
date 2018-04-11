@@ -15,7 +15,8 @@
         /* Needs to talk to the network: */
         "--share=network",
         "--filesystem=home",
-        "--socket=system-bus"
+        "--socket=system-bus",
+        "--socket=pulseaudio"
     ],
     "build-options": {
         "cflags": "-O2 -g",
